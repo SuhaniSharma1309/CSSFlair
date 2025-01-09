@@ -1,0 +1,131 @@
+/* General Styles */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Ariel, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color:rgb(203, 193, 193) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    background-color: black;
+    padding: 10px 20px;
+    color: rgb(232, 116, 116);
+}
+
+header .logo {
+    font-family: 'Harrington',fantasy;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('train2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* color: rgb(229, 223, 223); */
+    color: rgb(12, 11, 12);
+    text-align: center;
+    padding: 100px 50px;
+    height: 500px;
+    /* opacity: 0.5; */
+}
+
+.hero-content h1 {
+    font-family: 'Harrington',fantasy;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 400px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-family: 'Lucida Calligraphy',cursive;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination {
+    background-color: #dabbbb;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-post {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.blog-post a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
